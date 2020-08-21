@@ -94,8 +94,8 @@ def main(args):
   
   tag_id_to_recommend_upon = args[1]
   n_top_values = int(args[2])
-  dataset_path = args[3] # example: "~/Desktop/21_buttons/"
-  dataset_name = args[4] # ecample: "21B_tag_views_dataset.csv"
+  dataset_path = args[3] # example: "~/Desktop/folder/"
+  dataset_name = args[4] # example: "item_views_dataset.csv"
 
   # Importing data
   print("Importing dataset and creating lookup table...") 
